@@ -6,7 +6,6 @@ D:\vk-bot\VkApi\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.
 D:\vk-bot\VkApi\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
 D:\vk-bot\VkApi\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
 D:\vk-bot\VkApi\bin\Debug\Newtonsoft.Json.dll
-D:\vk-bot\VkApi\bin\Debug\System.Net.Http.dll
 D:\vk-bot\VkApi\bin\Debug\VkNet.dll
 D:\vk-bot\VkApi\bin\Debug\HtmlAgilityPack.pdb
 D:\vk-bot\VkApi\bin\Debug\HtmlAgilityPack.xml
@@ -15,7 +14,6 @@ D:\vk-bot\VkApi\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.
 D:\vk-bot\VkApi\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
 D:\vk-bot\VkApi\bin\Debug\Newtonsoft.Json.xml
 D:\vk-bot\VkApi\bin\Debug\VkNet.xml
-D:\vk-bot\VkApi\obj\Debug\VkApi.csprojAssemblyReference.cache
 D:\vk-bot\VkApi\obj\Debug\VkApi.csproj.CoreCompileInputs.cache
 D:\vk-bot\VkApi\obj\Debug\VkApi.csproj.CopyComplete
 D:\vk-bot\VkApi\obj\Debug\VkApi.dll

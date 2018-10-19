@@ -7,3 +7,12 @@ D:\Programming Projects\C# Projects\vk-bot\VkCallbackApi\obj\Debug\VkCallbackApi
 D:\Programming Projects\C# Projects\vk-bot\VkCallbackApi\obj\Debug\VkCallbackApi.csproj.CopyComplete
 D:\Programming Projects\C# Projects\vk-bot\VkCallbackApi\obj\Debug\VkCallbackApi.dll
 D:\Programming Projects\C# Projects\vk-bot\VkCallbackApi\obj\Debug\VkCallbackApi.pdb
+D:\vk-bot\VkCallbackApi\bin\Debug\VkCallbackApi.dll
+D:\vk-bot\VkCallbackApi\bin\Debug\VkCallbackApi.pdb
+D:\vk-bot\VkCallbackApi\bin\Debug\Newtonsoft.Json.dll
+D:\vk-bot\VkCallbackApi\bin\Debug\Newtonsoft.Json.xml
+D:\vk-bot\VkCallbackApi\obj\Debug\VkCallbackApi.csprojAssemblyReference.cache
+D:\vk-bot\VkCallbackApi\obj\Debug\VkCallbackApi.csproj.CoreCompileInputs.cache
+D:\vk-bot\VkCallbackApi\obj\Debug\VkCallbackApi.csproj.CopyComplete
+D:\vk-bot\VkCallbackApi\obj\Debug\VkCallbackApi.dll
+D:\vk-bot\VkCallbackApi\obj\Debug\VkCallbackApi.pdb

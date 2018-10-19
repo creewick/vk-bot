@@ -22,21 +22,8 @@ D:\vk-bot\VkBot\obj\Debug\VkBot.csproj.CoreCompileInputs.cache
 D:\vk-bot\VkBot\obj\Debug\VkBot.csproj.CopyComplete
 D:\vk-bot\VkBot\obj\Debug\VkBot.exe
 D:\vk-bot\VkBot\obj\Debug\VkBot.pdb
-D:\vk-bot\VkBot\bin\Debug\System.Data.Common.dll
-D:\vk-bot\VkBot\bin\Debug\System.Diagnostics.StackTrace.dll
-D:\vk-bot\VkBot\bin\Debug\System.Diagnostics.Tracing.dll
-D:\vk-bot\VkBot\bin\Debug\System.Globalization.Extensions.dll
-D:\vk-bot\VkBot\bin\Debug\System.IO.Compression.dll
-D:\vk-bot\VkBot\bin\Debug\System.Net.Http.dll
-D:\vk-bot\VkBot\bin\Debug\System.Net.Sockets.dll
-D:\vk-bot\VkBot\bin\Debug\System.Runtime.Serialization.Primitives.dll
-D:\vk-bot\VkBot\bin\Debug\System.Security.Cryptography.Algorithms.dll
-D:\vk-bot\VkBot\bin\Debug\System.Security.SecureString.dll
-D:\vk-bot\VkBot\bin\Debug\System.Threading.Overlapped.dll
-D:\vk-bot\VkBot\bin\Debug\System.Xml.XPath.XDocument.dll
 D:\vk-bot\VkBot\bin\Debug\VKCallbackApi.dll
 D:\vk-bot\VkBot\bin\Debug\VKCallbackApi.pdb
-D:\vk-bot\VkBot\obj\Debug\VkBot.exe.config
 D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Debug\VkBot.exe.config
 D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Debug\VkBot.exe
 D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Debug\VkBot.pdb

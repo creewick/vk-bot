@@ -19,7 +19,7 @@ namespace VkCallbackApi
         {
             OnRequest += (x) => { };
 
-            httpListener.Prefixes.Add("http://localhost:80/");
+            httpListener.Prefixes.Add("http://localhost/");
             httpListener.Start();
             httpListener.GetContext();
         }
