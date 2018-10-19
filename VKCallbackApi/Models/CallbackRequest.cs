@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json;
-using VKCallbackApi.Models.Enums;
-using VKCallbackApi.Models.Objects;
+using VkCallbackApi.Models.Enums;
+using VkCallbackApi.Models.Objects;
 
-namespace VKCallbackApi.Models
+namespace VkCallbackApi.Models
 {
     public class CallbackRequest
     {

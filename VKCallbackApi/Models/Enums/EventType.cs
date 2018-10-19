@@ -1,6 +1,6 @@
 ﻿using System.Runtime.Serialization;
 
-namespace VKCallbackApi.Models.Enums
+namespace VkCallbackApi.Models.Enums
 {
     public enum EventType
     {

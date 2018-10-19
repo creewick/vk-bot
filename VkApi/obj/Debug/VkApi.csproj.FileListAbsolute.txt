@@ -20,3 +20,24 @@ D:\vk-bot\VkApi\obj\Debug\VkApi.csproj.CoreCompileInputs.cache
 D:\vk-bot\VkApi\obj\Debug\VkApi.csproj.CopyComplete
 D:\vk-bot\VkApi\obj\Debug\VkApi.dll
 D:\vk-bot\VkApi\obj\Debug\VkApi.pdb
+D:\Programming Projects\C# Projects\vk-bot\VkApi\bin\Debug\VkApi.dll.config
+D:\Programming Projects\C# Projects\vk-bot\VkApi\bin\Debug\VkApi.dll
+D:\Programming Projects\C# Projects\vk-bot\VkApi\bin\Debug\VkApi.pdb
+D:\Programming Projects\C# Projects\vk-bot\VkApi\bin\Debug\HtmlAgilityPack.dll
+D:\Programming Projects\C# Projects\vk-bot\VkApi\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Programming Projects\C# Projects\vk-bot\VkApi\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Programming Projects\C# Projects\vk-bot\VkApi\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Programming Projects\C# Projects\vk-bot\VkApi\bin\Debug\Newtonsoft.Json.dll
+D:\Programming Projects\C# Projects\vk-bot\VkApi\bin\Debug\VkNet.dll
+D:\Programming Projects\C# Projects\vk-bot\VkApi\bin\Debug\HtmlAgilityPack.pdb
+D:\Programming Projects\C# Projects\vk-bot\VkApi\bin\Debug\HtmlAgilityPack.xml
+D:\Programming Projects\C# Projects\vk-bot\VkApi\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Programming Projects\C# Projects\vk-bot\VkApi\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Programming Projects\C# Projects\vk-bot\VkApi\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Programming Projects\C# Projects\vk-bot\VkApi\bin\Debug\Newtonsoft.Json.xml
+D:\Programming Projects\C# Projects\vk-bot\VkApi\bin\Debug\VkNet.xml
+D:\Programming Projects\C# Projects\vk-bot\VkApi\obj\Debug\VkApi.csprojAssemblyReference.cache
+D:\Programming Projects\C# Projects\vk-bot\VkApi\obj\Debug\VkApi.csproj.CoreCompileInputs.cache
+D:\Programming Projects\C# Projects\vk-bot\VkApi\obj\Debug\VkApi.csproj.CopyComplete
+D:\Programming Projects\C# Projects\vk-bot\VkApi\obj\Debug\VkApi.dll
+D:\Programming Projects\C# Projects\vk-bot\VkApi\obj\Debug\VkApi.pdb

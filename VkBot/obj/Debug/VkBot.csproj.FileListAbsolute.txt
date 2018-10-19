@@ -37,3 +37,29 @@ D:\vk-bot\VkBot\bin\Debug\System.Xml.XPath.XDocument.dll
 D:\vk-bot\VkBot\bin\Debug\VKCallbackApi.dll
 D:\vk-bot\VkBot\bin\Debug\VKCallbackApi.pdb
 D:\vk-bot\VkBot\obj\Debug\VkBot.exe.config
+D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Debug\VkBot.exe.config
+D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Debug\VkBot.exe
+D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Debug\VkBot.pdb
+D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Debug\VkApi.dll
+D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Debug\VKCallbackApi.dll
+D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Debug\VkNet.dll
+D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Debug\Newtonsoft.Json.dll
+D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Debug\HtmlAgilityPack.dll
+D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Debug\VkApi.pdb
+D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Debug\VkApi.dll.config
+D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Debug\VKCallbackApi.pdb
+D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Debug\VkNet.xml
+D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Debug\Newtonsoft.Json.xml
+D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Debug\HtmlAgilityPack.pdb
+D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Debug\HtmlAgilityPack.xml
+D:\Programming Projects\C# Projects\vk-bot\VkBot\obj\Debug\VkBot.csprojAssemblyReference.cache
+D:\Programming Projects\C# Projects\vk-bot\VkBot\obj\Debug\VkBot.csproj.CoreCompileInputs.cache
+D:\Programming Projects\C# Projects\vk-bot\VkBot\obj\Debug\VkBot.csproj.CopyComplete
+D:\Programming Projects\C# Projects\vk-bot\VkBot\obj\Debug\VkBot.exe
+D:\Programming Projects\C# Projects\vk-bot\VkBot\obj\Debug\VkBot.pdb

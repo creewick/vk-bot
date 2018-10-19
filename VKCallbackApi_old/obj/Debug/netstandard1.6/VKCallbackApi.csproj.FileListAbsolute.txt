@@ -1,0 +1,8 @@
+D:\Programming Projects\C# Projects\vk-bot\VKCallbackApi\bin\Debug\netstandard1.6\VKCallbackApi.deps.json
+D:\Programming Projects\C# Projects\vk-bot\VKCallbackApi\bin\Debug\netstandard1.6\VKCallbackApi.dll
+D:\Programming Projects\C# Projects\vk-bot\VKCallbackApi\bin\Debug\netstandard1.6\VKCallbackApi.pdb
+D:\Programming Projects\C# Projects\vk-bot\VKCallbackApi\obj\Debug\netstandard1.6\VKCallbackApi.csprojAssemblyReference.cache
+D:\Programming Projects\C# Projects\vk-bot\VKCallbackApi\obj\Debug\netstandard1.6\VKCallbackApi.csproj.CoreCompileInputs.cache
+D:\Programming Projects\C# Projects\vk-bot\VKCallbackApi\obj\Debug\netstandard1.6\VKCallbackApi.AssemblyInfo.cs
+D:\Programming Projects\C# Projects\vk-bot\VKCallbackApi\obj\Debug\netstandard1.6\VKCallbackApi.dll
+D:\Programming Projects\C# Projects\vk-bot\VKCallbackApi\obj\Debug\netstandard1.6\VKCallbackApi.pdb
