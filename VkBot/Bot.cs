@@ -10,8 +10,9 @@ namespace VkBot
         public Bot(string token, string confirmCode)
         {
             api = new VkApi.VkApi(token);
-            Console.WriteLine("Success login ВК");
+            Console.WriteLine("Success login VK");
             callbackApi = new VkCallbackApi.VkCallbackApi(confirmCode);
+            Console.WriteLine("Success create callback API");
             callbackApi.Run();
             callbackApi.OnRequest += OnRequest;
         }

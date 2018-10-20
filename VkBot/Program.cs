@@ -7,9 +7,9 @@ namespace VkBot
     {
         static void Main(string[] args)
         {
-            var bot = new Bot(ConfigurationManager.AppSettings["token"],
-                              ConfigurationManager.AppSettings["confirm-code"]);
-            while (Console.Read() != 'q') ;
+            var bot = new Bot(ConfigurationManager.ConnectionStrings["token"].ConnectionString,
+                              ConfigurationManager.ConnectionStrings["confirm-code"].ConnectionString);
+            while (true) ;
         }                                                  
     }
 }

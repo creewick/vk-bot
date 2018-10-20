@@ -21,7 +21,7 @@ namespace VkCallbackApi
             ConfirmationToken = confirmToken;
             OnRequest += (x) => { };
 
-            httpListener.Prefixes.Add("http://+:80/");
+            httpListener.Prefixes.Add("http://localhost:80/");
         }
 
         public async void Run()

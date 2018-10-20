@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using VkNet.Enums;
-using VkNet.Model;
+﻿using VkNet.Model;
 using VkNet.Model.RequestParams;
 
 namespace VkApi
