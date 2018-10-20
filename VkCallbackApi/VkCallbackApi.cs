@@ -1,6 +1,7 @@
 ﻿using System;
-using System.IO;
 using System.Net;
+using System.Net.Sockets;
+using System.Text;
 using Newtonsoft.Json;
 using VkCallbackApi.Models;
 
@@ -9,52 +10,43 @@ namespace VkCallbackApi
     public class VkCallbackApi
     {
         public string ConfirmationToken { get; set; }
-        public string Secret { get; set; }
 
         public delegate void RequestHandler(CallbackRequest request);
         public event RequestHandler OnRequest;
 
-        private readonly HttpListener httpListener = new HttpListener();
-
+        private readonly Socket socket;
+        
         public VkCallbackApi(string confirmToken)
         {
             ConfirmationToken = confirmToken;
             OnRequest += (x) => { };
 
-            httpListener.Prefixes.Add("http://localhost:80/");
+            socket = new Socket(SocketType.Dgram, ProtocolType.Udp);
+            socket.Bind(new IPEndPoint(IPAddress.Any, 80));
+            Receive();
         }
 
-        public async void Run()
+        private void Receive()
         {
-            httpListener.Start();
-            try
-            {
-                while (true)
-                {
-                    Console.WriteLine("waiting for request");
-                    var context = await httpListener.GetContextAsync();
-                    Console.WriteLine("got request");
-                    var request = context.Request;
-                    string content;
-                    using (var receiveStream = request.InputStream)
-                        using (var readStream = new StreamReader(receiveStream))
-                            content = readStream.ReadToEnd();
-                    var answer = HandleResponse(JsonConvert.DeserializeObject<CallbackRequest>(content));
+            var e = new SocketAsyncEventArgs();
+            e.SetBuffer(new byte[100], 0, 100);
+            e.RemoteEndPoint = new IPEndPoint(IPAddress.Any, 0);
+            e.UserToken = socket;
+            e.Completed += Handler;
+            socket.ReceiveFromAsync(e);
+        }
 
-                    var response = context.Response;
-                    var buffer = System.Text.Encoding.UTF8.GetBytes(answer);
-                    var outputStream = response.OutputStream;
+        private void Send(string answer)
+        {
 
-                    await outputStream.WriteAsync(buffer, 0, buffer.Length);
-                    Console.WriteLine("response sent");
-                    outputStream.Close();
-                }
-            }
-            finally
-            {
-                httpListener.Close();
-            }
+        }
 
+        private void Handler(object sender, SocketAsyncEventArgs e)
+        {
+            Console.WriteLine("receive");
+            var data = Encoding.ASCII.GetString(e.Buffer, e.Offset, e.BytesTransferred);
+            var answer = HandleResponse(data);
+            Send(answer);
         }
 
         public string HandleResponse(CallbackRequest request)
@@ -74,7 +66,7 @@ namespace VkCallbackApi
             return "ok";
         }
 
-        public string HandleResponse(string stringData)
+        private string HandleResponse(string stringData)
         {
             var data = JsonConvert.DeserializeObject<CallbackRequest>(stringData);
             return HandleResponse(data);
