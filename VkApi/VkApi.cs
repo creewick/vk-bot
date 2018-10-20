@@ -1,4 +1,6 @@
-﻿using VkNet.Model;
+﻿using System.Collections.Generic;
+using VkNet.Enums;
+using VkNet.Model;
 using VkNet.Model.RequestParams;
 
 namespace VkApi
@@ -9,12 +11,12 @@ namespace VkApi
 
         public void Login(string token)
         {
-            api.Authorize(new ApiAuthParams{AccessToken = token});       
+            api.Authorize(new ApiAuthParams { AccessToken = token });
         }
 
         public void Send(long peerId, string message)
         {
-            api.Messages.Send(new MessagesSendParams {Message = message, PeerId = peerId});
+            api.Messages.Send(new MessagesSendParams { Message = message, PeerId = peerId });
         }
     }
 }

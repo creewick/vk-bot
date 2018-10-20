@@ -19,9 +19,9 @@ namespace VkCallbackApi
         {
             OnRequest += (x) => { };
 
-            httpListener.Prefixes.Add("http://localhost/");
+            httpListener.Prefixes.Add("http://+:80/");
             httpListener.Start();
-            httpListener.GetContext();
+            var content = httpListener.GetContext();
         }
 
         public string HandleResponse(CallbackRequest request)
