@@ -1,6 +1,4 @@
-﻿using System;
-using System.Threading.Tasks;
-using System.Timers;
+﻿using System.Threading;
 
 namespace VkBot
 {
@@ -12,10 +10,10 @@ namespace VkBot
         {
             api = new VkApi.VkApi();
             api.Login(token);
-        }
-
-        public async void Run()
-        {
+            while (true)
+            {
+                api.Mention();
+            }
         }
 
         public void Send(long peerId, string message) => api.Send(peerId, message);
