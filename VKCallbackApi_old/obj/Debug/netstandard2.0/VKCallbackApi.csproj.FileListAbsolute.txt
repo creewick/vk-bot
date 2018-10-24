@@ -1,9 +1,0 @@
-D:\vk-bot\VKCallbackApi\bin\Debug\netstandard2.0\VKCallbackApi.deps.json
-D:\vk-bot\VKCallbackApi\bin\Debug\netstandard2.0\VKCallbackApi.dll
-D:\vk-bot\VKCallbackApi\bin\Debug\netstandard2.0\VKCallbackApi.pdb
-D:\vk-bot\VKCallbackApi\obj\Debug\netstandard2.0\VKCallbackApi.csprojAssemblyReference.cache
-D:\vk-bot\VKCallbackApi\obj\Debug\netstandard2.0\VKCallbackApi.csproj.CoreCompileInputs.cache
-D:\vk-bot\VKCallbackApi\obj\Debug\netstandard2.0\VKCallbackApi.AssemblyInfoInputs.cache
-D:\vk-bot\VKCallbackApi\obj\Debug\netstandard2.0\VKCallbackApi.AssemblyInfo.cs
-D:\vk-bot\VKCallbackApi\obj\Debug\netstandard2.0\VKCallbackApi.dll
-D:\vk-bot\VKCallbackApi\obj\Debug\netstandard2.0\VKCallbackApi.pdb

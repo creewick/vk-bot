@@ -9,6 +9,6 @@
     <ErrorReportUrlHistory />
     <FallbackCulture>en-US</FallbackCulture>
     <VerifyUploadedFiles>false</VerifyUploadedFiles>
-    <NameOfLastUsedPublishProfile>vk-bot - Web Deploy</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>my-vk-bot - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

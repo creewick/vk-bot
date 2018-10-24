@@ -1,9 +1,0 @@
-D:\Programming Projects\C# Projects\vk-bot\VkCallbackApi\bin\Release\VkCallbackApi.dll
-D:\Programming Projects\C# Projects\vk-bot\VkCallbackApi\bin\Release\VkCallbackApi.pdb
-D:\Programming Projects\C# Projects\vk-bot\VkCallbackApi\bin\Release\Newtonsoft.Json.dll
-D:\Programming Projects\C# Projects\vk-bot\VkCallbackApi\bin\Release\Newtonsoft.Json.xml
-D:\Programming Projects\C# Projects\vk-bot\VkCallbackApi\obj\Release\VkCallbackApi.csprojAssemblyReference.cache
-D:\Programming Projects\C# Projects\vk-bot\VkCallbackApi\obj\Release\VkCallbackApi.csproj.CoreCompileInputs.cache
-D:\Programming Projects\C# Projects\vk-bot\VkCallbackApi\obj\Release\VkCallbackApi.csproj.CopyComplete
-D:\Programming Projects\C# Projects\vk-bot\VkCallbackApi\obj\Release\VkCallbackApi.dll
-D:\Programming Projects\C# Projects\vk-bot\VkCallbackApi\obj\Release\VkCallbackApi.pdb

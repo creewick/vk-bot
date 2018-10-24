@@ -2,7 +2,6 @@ D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Release\VkBot.exe.config
 D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Release\VkBot.exe
 D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Release\VkBot.pdb
 D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Release\VkApi.dll
-D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Release\VkCallbackApi.dll
 D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Release\VkNet.dll
 D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Release\Newtonsoft.Json.dll
@@ -11,7 +10,6 @@ D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Release\Microsoft.Extension
 D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Release\HtmlAgilityPack.dll
 D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Release\VkApi.pdb
 D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Release\VkApi.dll.config
-D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Release\VkCallbackApi.pdb
 D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Release\VkNet.xml
 D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml
 D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Release\Newtonsoft.Json.xml

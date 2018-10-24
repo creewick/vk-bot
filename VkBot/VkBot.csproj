@@ -62,17 +62,13 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-    <None Include="Properties\PublishProfiles\vk-bot - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\my-vk-bot - Web Deploy.pubxml" />
     <None Include="Properties\webjob-publish-settings.json" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\VkApi\VkApi.csproj">
       <Project>{9b4d9520-8b5b-4994-a9e1-43073170f880}</Project>
       <Name>VkApi</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\VkCallbackApi\VkCallbackApi.csproj">
-      <Project>{16ce9000-6534-4656-a72b-095ec6fd080c}</Project>
-      <Name>VkCallbackApi</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
