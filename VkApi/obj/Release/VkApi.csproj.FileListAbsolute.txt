@@ -20,7 +20,6 @@ D:\Programming Projects\C# Projects\vk-bot\VkApi\obj\Release\VkApi.dll
 D:\Programming Projects\C# Projects\vk-bot\VkApi\obj\Release\VkApi.pdb
 D:\Programming Projects\C# Projects\vk-bot\VkApi\obj\Release\VkApi.csprojAssemblyReference.cache
 D:\Programming Projects\C# Projects\vk-bot\VkApi\bin\Release\System.IO.dll
-D:\Programming Projects\C# Projects\vk-bot\VkApi\bin\Release\System.Net.Http.dll
 D:\Programming Projects\C# Projects\vk-bot\VkApi\bin\Release\System.Runtime.dll
 D:\Programming Projects\C# Projects\vk-bot\VkApi\bin\Release\System.Security.Cryptography.Algorithms.dll
 D:\Programming Projects\C# Projects\vk-bot\VkApi\bin\Release\System.Security.Cryptography.Encoding.dll
