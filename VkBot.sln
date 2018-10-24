@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VkApi", "VkApi\VkApi.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VkBot", "VkBot\VkBot.csproj", "{7A7664B5-DD84-4E0F-BA86-02CD8C12515E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VkCallbackApi", "VkCallbackApi\VkCallbackApi.csproj", "{16CE9000-6534-4656-A72B-095EC6FD080C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallbackApi", "CallbackApi\CallbackApi.csproj", "{0E37252E-9C1C-4D32-BC46-622259FF1914}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{7A7664B5-DD84-4E0F-BA86-02CD8C12515E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A7664B5-DD84-4E0F-BA86-02CD8C12515E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A7664B5-DD84-4E0F-BA86-02CD8C12515E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{16CE9000-6534-4656-A72B-095EC6FD080C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{16CE9000-6534-4656-A72B-095EC6FD080C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{16CE9000-6534-4656-A72B-095EC6FD080C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{16CE9000-6534-4656-A72B-095EC6FD080C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E37252E-9C1C-4D32-BC46-622259FF1914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E37252E-9C1C-4D32-BC46-622259FF1914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E37252E-9C1C-4D32-BC46-622259FF1914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E37252E-9C1C-4D32-BC46-622259FF1914}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

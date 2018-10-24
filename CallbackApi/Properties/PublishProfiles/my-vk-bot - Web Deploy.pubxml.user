@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAHvcWKUigLE+EtmbqF+8qMQAAAAACAAAAAAAQZgAAAAEAACAAAAD2eFw7CMZ2S+vVenXf8mh8H40/tQ1xhdUgbyoq8ZUbpQAAAAAOgAAAAAIAACAAAAChsvbjMOO60ymmEsOjL9QxlQ1++Mi7nvNrEcG/fWkuT4AAAADEtniDOVxY8KHXJSH4ZSKADAAnq6VhDbRNBqjNjLl0X7NFuO4owTwRzbtxK0PihymMmyf0fbXIEeYAmj1U5htbAZHJ9dbSAGzO0bDc7AQ9nvLFvIHX4NT/Tnzl7S9AMbogcPTrPtVqhW90UGknDIbXtbzgi+PuhBhvn4eDEcmbTkAAAAAgNejAkMS61wCDk1K9f25ekJQGy0KIw3rUT3ppkCtGeKqAbBcKEdT4iM8yHr7LTY941GODJ/ESkBgDZ7Ll5/Hx</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <AzureDBConnectionStrings Include="0219c885e1c1d47d6ddb72bf32e42a685e8399dd720f8b6138fa326b68f808f26fb03f136a8ff27a6e6d4" />
+    <AzureDBConnectionStrings Include="f8ff207a" />
+  </ItemGroup>
+</Project>
