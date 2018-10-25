@@ -8,7 +8,7 @@ namespace CallbackApi.Models.Objects
         public int Id { get; set; }
 
         [JsonProperty("peer_id")]
-        public int PeerId { get; set; }
+        public long PeerId { get; set; }
 
         [JsonProperty("from_id")]
         public int FromId { get; set; }

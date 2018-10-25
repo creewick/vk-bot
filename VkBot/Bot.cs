@@ -1,65 +1,79 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Configuration;
 using System.Text.RegularExpressions;
+using System.Threading;
 using System.Threading.Tasks;
+using VkBot.MessageTasks;
+using VkBot.ReplyTasks;
+using VkBot.TimeTasks;
 
 namespace VkBot
 {
     public class Bot
     {
+        public readonly HashSet<long> Chats = new HashSet<long>();
+
+        const string Calling = @"^\[club172770222\|.*\]";
         private readonly VkApi.VkApi api;
-        const string Calling = @"\[club172770222\|.*\]";
-        private readonly List<long> ChatList = new List<long>{2000000002};
+
+        private static readonly List<ITimeTask> TimeTasks = new List<ITimeTask>
+        {
+            new GoodMorning(),
+            new GoodNight()
+        };  
+
+        private static readonly List<IReplyTask> ReplyTasks = new List<IReplyTask>
+        {
+            new RepeatTask(),
+            new GetChatsTask(),
+            new BasicTask()
+        };
+
+        private static readonly List<IMessageTask> MessageTasks = new List<IMessageTask>
+        {
+            new AntiHugTask()
+        };
         
-    public Bot(string token)
+        public Bot(string token)
         {
             api = new VkApi.VkApi(token);
-            Console.WriteLine("Success login ВК");
+            Task.Run(() => Run());
         }
 
         public void Run()
         {
             while (true)
             {
-                GoodMorning();
-                GoodNight();
+                foreach (var timeTask in TimeTasks)
+                    timeTask.Task(this);
+                Thread.Sleep(1000 * 60);
             }
         }
 
-        private DateTime lastMorning = DateTime.MinValue;
-        private void GoodMorning()
+        public void NewMessage(long peerId, string text)
         {
-            var now = DateTime.UtcNow.AddHours(5);
-            if (!lastMorning.Date.Equals(now.Date) &&
-                now.Hour == 10 && now.Minute < 10)
+            AddChat(peerId);
+            if (BotCalled(peerId, text))
             {
-                foreach (var chat in ChatList)
-                    Send(chat, "Доброе утро, пушистики! :3");
-                lastMorning = now;
+                foreach (var task in ReplyTasks)
+                    if (task.Action(this, peerId, text))
+                        break;
+            }
+            else
+            {
+                foreach (var task in MessageTasks)
+                    if (task.Action(this, peerId, text))
+                        break;
             }
         }
 
-        private DateTime lastNight = DateTime.MinValue;
-        private void GoodNight()
-        {
-            var now = DateTime.UtcNow.AddHours(5);
-            if (!lastNight.Date.Equals(now.Date) &&
-                now.Hour == 2 && now.Minute < 10)
-            {
-                foreach (var chat in ChatList)
-                    Send(chat, "Сладких всем снов! :3");
-                lastNight = now;
-            }
-        }
+        private static bool BotCalled(long peerId, string text) =>
+            Regex.IsMatch(text, Calling) || peerId < 2000000000;
 
-        public void NewMessage(int peerId, string text)
+        private void AddChat(long peerId)
         {
-            if (Regex.IsMatch(text, Calling) || peerId < 2000000000)
-            {
-                var i = new Random().Next(5);
-                Send(peerId, i == 0 ? "Destroy the humanity!" : "zzz");
-            }
+            if (peerId > 2000000000)
+                Chats.Add(peerId);
         }
 
         public void Send(long peerId, string message) => api.Send(peerId, message);

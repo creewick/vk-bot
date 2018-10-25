@@ -69,13 +69,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bot.cs" />
+    <Compile Include="MessageTasks\AntiHugTask.cs" />
+    <Compile Include="MessageTasks\IMessageTask.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReplyTasks\BasicTask.cs" />
+    <Compile Include="ReplyTasks\GetChatsTask.cs" />
+    <Compile Include="ReplyTasks\IReplyTask.cs" />
+    <Compile Include="ReplyTasks\RepeatTask.cs" />
+    <Compile Include="TimeTasks\GoodMorning.cs" />
+    <Compile Include="TimeTasks\GoodNight.cs" />
+    <Compile Include="TimeTasks\ITimeTask.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-    <None Include="Properties\PublishProfiles\my-vk-bot - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\vk-bot - Web Deploy.pubxml" />
     <None Include="Properties\webjob-publish-settings.json" />
     <None Include="VkBot_TemporaryKey.pfx" />
   </ItemGroup>

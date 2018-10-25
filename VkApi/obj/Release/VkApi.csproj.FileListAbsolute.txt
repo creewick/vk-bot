@@ -18,10 +18,10 @@ D:\Programming Projects\C# Projects\vk-bot\VkApi\obj\Release\VkApi.csproj.CoreCo
 D:\Programming Projects\C# Projects\vk-bot\VkApi\obj\Release\VkApi.csproj.CopyComplete
 D:\Programming Projects\C# Projects\vk-bot\VkApi\obj\Release\VkApi.dll
 D:\Programming Projects\C# Projects\vk-bot\VkApi\obj\Release\VkApi.pdb
-D:\Programming Projects\C# Projects\vk-bot\VkApi\obj\Release\VkApi.csprojAssemblyReference.cache
 D:\Programming Projects\C# Projects\vk-bot\VkApi\bin\Release\System.IO.dll
 D:\Programming Projects\C# Projects\vk-bot\VkApi\bin\Release\System.Runtime.dll
 D:\Programming Projects\C# Projects\vk-bot\VkApi\bin\Release\System.Security.Cryptography.Algorithms.dll
 D:\Programming Projects\C# Projects\vk-bot\VkApi\bin\Release\System.Security.Cryptography.Encoding.dll
 D:\Programming Projects\C# Projects\vk-bot\VkApi\bin\Release\System.Security.Cryptography.Primitives.dll
 D:\Programming Projects\C# Projects\vk-bot\VkApi\bin\Release\System.Security.Cryptography.X509Certificates.dll
+D:\Programming Projects\C# Projects\vk-bot\VkApi\obj\Release\VkApi.csprojAssemblyReference.cache
