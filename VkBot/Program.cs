@@ -8,7 +8,7 @@ namespace VkBot
         static void Main(string[] args)
         {
             var bot = new Bot(ConfigurationManager.ConnectionStrings["token"].ConnectionString);
-            while (Console.Read() != 'q') ;
+            bot.Run();
         }                                                  
     }
 }

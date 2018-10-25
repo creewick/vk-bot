@@ -22,3 +22,7 @@ D:\Programming Projects\C# Projects\vk-bot\VkBot\obj\Release\VkBot.csproj.CoreCo
 D:\Programming Projects\C# Projects\vk-bot\VkBot\obj\Release\VkBot.csproj.CopyComplete
 D:\Programming Projects\C# Projects\vk-bot\VkBot\obj\Release\VkBot.exe
 D:\Programming Projects\C# Projects\vk-bot\VkBot\obj\Release\VkBot.pdb
+D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Release\VkBot.exe.manifest
+D:\Programming Projects\C# Projects\vk-bot\VkBot\bin\Release\VkBot.application
+D:\Programming Projects\C# Projects\vk-bot\VkBot\obj\Release\VkBot.exe.manifest
+D:\Programming Projects\C# Projects\vk-bot\VkBot\obj\Release\VkBot.application

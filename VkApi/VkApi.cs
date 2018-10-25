@@ -1,4 +1,5 @@
-﻿using VkNet.Model;
+﻿using System;
+using VkNet.Model;
 using VkNet.Model.RequestParams;
 
 namespace VkApi
@@ -15,7 +16,18 @@ namespace VkApi
 
         public void Send(long peerId, string message)
         {
-            api.Messages.Send(new MessagesSendParams { Message = message, PeerId = peerId });
+            try
+            {
+                api.Messages.Send(new MessagesSendParams
+                {
+                    Message = message,
+                    PeerId = peerId
+                });
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
         }
     }
 }
